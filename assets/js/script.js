@@ -3,7 +3,11 @@ const obtenerPromedio = () => {
   const nota2 = prompt("Ingresa tu segunda calificación");
 
   let promedio = (parseInt(nota1) + parseInt(nota2)) / 2;
-
-  alert(`Tu promedio es ${promedio}`);
-  console.log(`Tu promedio es ${promedio}`);
+    if(promedio === !isNaN){
+        alert("no ingresaste promedio")
+    } else{
+        alert(`Tu promedio es ${promedio}`);
+        console.log(`Tu promedio es ${promedio}`);
+    }
+ 
 };
