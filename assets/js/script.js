@@ -12,9 +12,11 @@ const obtenerPromedio = () => {
 };
 
 /* Object constructor */
-let nombre = prompt("Hola! Bienvenid@ al sitio, por favor Ingresa tu nombre de pila");
-let apellido = prompt("Ingresa tu apellido");
-let alerta = alert("Revisa la consola")
+
+const saludo = () => {
+	let nombre = prompt("Hola! Bienvenid@ al sitio, por favor Ingresa tu nombre de pila");
+	let apellido = prompt("Ingresa tu apellido");
+	let alerta = alert("Revisa la consola")
 
 function Producto(nombre, apellido) {
 	this.nombre = nombre;
@@ -38,3 +40,4 @@ const producto = new Producto(nombre, apellido)
 
 producto.mostrarNombre();
 
+}

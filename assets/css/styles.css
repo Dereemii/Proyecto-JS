@@ -1,0 +1,18 @@
+
+
+.imagenPlanner{
+    text-align: center;
+    width: 250px;
+}
+
+.section{
+    justify-content: left
+}
+
+.tituloPlanner{
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 0;
+}
