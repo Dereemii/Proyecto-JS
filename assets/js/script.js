@@ -41,3 +41,16 @@ const producto = new Producto(nombre, apellido)
 producto.mostrarNombre();
 
 }
+const listadoAsignaturas = () => {
+	const valor1 = prompt("Ingresa tu asignatura n°1");
+	const valor2 = prompt("Ingresa tu asignatura n°2");
+	const valor3 = prompt("Ingresa tu asignatura n°3");
+
+    let asignaturas = [];
+     asignaturas.push(valor1, valor2, valor3)
+     console.log(asignaturas)
+
+
+	alert(`Hola!, tus listado de asignaturas inscritas son: ${asignaturas}`)
+	alert(`En la consola encontraras el array de asignaturas almacenado :)`)
+}
