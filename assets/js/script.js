@@ -6,8 +6,8 @@ const obtenerPromedio = () => {
   if(isNaN(promedio)){
     alert("no ingresaste promedio")
   } else{
-        alert(`Tu promedio es ${promedio}`);
-        console.log(`Tu promedio es ${promedio}`);
+	 document.getElementById('promedioFinal').innerHTML = `Tu promedio es ${promedio}`
+     console.log(`Tu promedio es ${promedio}`);
     }
 };
 
